@@ -21,3 +21,44 @@
 //     color: #fff;
 //     text-decoration: none;
 // }
+
+#home-container {
+    margin-top: 25px;;
+}
+
+.jumbotron {
+    background-image: asset-url('jumbo-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.lead {
+    font-weight: bold;
+}
+
+.jumbo-text {
+    color: #fff;
+    font-weight: bold;
+}
+
+.text-background {
+    background-color: rgba(0, 0, 0, 0.40);
+    padding-bottom: 95px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
