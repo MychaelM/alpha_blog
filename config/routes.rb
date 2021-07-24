@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   resources :articles
   get 'signup', to: 'users#new'
+  resources :users, except: [:new] #already have route defined for new users at 'signup' so exclides new route from user resource
 end
